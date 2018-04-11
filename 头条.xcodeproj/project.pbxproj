@@ -15,6 +15,8 @@
 		DA3CECE3207374BA003609D9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DA3CECE2207374BA003609D9 /* main.m */; };
 		DA3CECED207374BA003609D9 /* __Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = DA3CECEC207374BA003609D9 /* __Tests.m */; };
 		DA3CECF8207374BA003609D9 /* __UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DA3CECF7207374BA003609D9 /* __UITests.m */; };
+		DA499326207462C800555142 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA499325207462C800555142 /* FirstViewController.m */; };
+		DA49932920749FBC00555142 /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = DA49932820749FBC00555142 /* UIColor+Hex.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,11 @@
 		DA3CECF3207374BA003609D9 /* 头条UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "头条UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA3CECF7207374BA003609D9 /* __UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = __UITests.m; sourceTree = "<group>"; };
 		DA3CECF9207374BA003609D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA499324207462C800555142 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		DA499325207462C800555142 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		DA49932720749FBC00555142 /* UIColor+Hex.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+Hex.h"; sourceTree = "<group>"; };
+		DA49932820749FBC00555142 /* UIColor+Hex.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Hex.m"; sourceTree = "<group>"; };
+		DA722BFA2079FFA600FA877C /* haha.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = haha.pch; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +88,7 @@
 		DA3CECC7207374B9003609D9 = {
 			isa = PBXGroup;
 			children = (
+				DA722BFA2079FFA600FA877C /* haha.pch */,
 				DA3CECD2207374B9003609D9 /* 头条 */,
 				DA3CECEB207374BA003609D9 /* 头条Tests */,
 				DA3CECF6207374BA003609D9 /* 头条UITests */,
@@ -105,11 +113,15 @@
 				DA3CECD4207374B9003609D9 /* AppDelegate.m */,
 				DA3CECD6207374B9003609D9 /* ViewController.h */,
 				DA3CECD7207374B9003609D9 /* ViewController.m */,
+				DA499324207462C800555142 /* FirstViewController.h */,
+				DA499325207462C800555142 /* FirstViewController.m */,
 				DA3CECD9207374B9003609D9 /* Main.storyboard */,
 				DA3CECDC207374BA003609D9 /* Assets.xcassets */,
 				DA3CECDE207374BA003609D9 /* LaunchScreen.storyboard */,
 				DA3CECE1207374BA003609D9 /* Info.plist */,
 				DA3CECE2207374BA003609D9 /* main.m */,
+				DA49932720749FBC00555142 /* UIColor+Hex.h */,
+				DA49932820749FBC00555142 /* UIColor+Hex.m */,
 			);
 			path = "头条";
 			sourceTree = "<group>";
@@ -263,8 +275,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				DA3CECD8207374B9003609D9 /* ViewController.m in Sources */,
+				DA49932920749FBC00555142 /* UIColor+Hex.m in Sources */,
 				DA3CECE3207374BA003609D9 /* main.m in Sources */,
 				DA3CECD5207374B9003609D9 /* AppDelegate.m in Sources */,
+				DA499326207462C800555142 /* FirstViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
