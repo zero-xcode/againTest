@@ -18,6 +18,7 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     NSLog(@"haha");
+    NSLog(@"操蛋");
 }
 
 - (void)didReceiveMemoryWarning {
